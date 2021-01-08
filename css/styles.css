@@ -1,0 +1,200 @@
+/* Body */
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+
+
+/* Heading */
+
+.big-heading{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation Bar */
+
+
+.navbar-brand{
+  font-family: "ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+.nav-item{
+  padding: 0 18px 0 18px;
+}
+
+.nav-link{
+  font-family: "Montserrat";
+  font-weight: light;
+}
+
+
+/* Media Query */
+
+@media (max-width: 1028px) {
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* Title */
+
+#title{
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+#title .container-fluid{
+  padding: 3% 15%;
+}
+
+/* container */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+
+}
+
+/* Features */
+
+.feature-ico{
+  color: #ef8172;
+  position: relative;
+  margin: auto;
+  padding-bottom: 0.7rem;
+}
+
+.feature-ico: hover{
+  background-color: #ff4c68;
+}
+
+.feature-head{
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.feature-para{
+  color: #8f8f8f;
+}
+
+#features{
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.div-align{
+  position: relative;
+  margin: 8.5rem auto;
+}
+
+
+/* Testimonials */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-img{
+  width: 6rem;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* press */
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  padding: 0 2rem;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 100px;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to action */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+#cta{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/* footer */
+
+#footer{
+  padding: 7% 15%;
+  background-color: #fff;
+}
+
+.footer-ico{
+  padding: 3% 2%;
+}
